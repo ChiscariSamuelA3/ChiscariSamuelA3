@@ -6,7 +6,7 @@ using namespace std;
 
 bool isPrime(int n)
 {
-	for (int tr = 2; tr < n / 2; tr++)
+	for (int tr = 2; tr < n / 2 + 1; tr++)
 
 		if ((n % tr) == 0)
 
